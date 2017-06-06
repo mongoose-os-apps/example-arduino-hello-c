@@ -1,0 +1,18 @@
+author: mongoose-os
+description: Arduino C/C++ basic API usage example
+version: 1.0
+
+sources:
+  - src
+filesystem:
+  - fs
+libs:
+  - origin: https://github.com/mongoose-os-libs/mjs
+  - origin: https://github.com/mongoose-os-libs/arduino-compat
+
+tags:
+  - c
+  - arduino
+  - arduino-core
+
+skeleton_version: 2017-05-18
