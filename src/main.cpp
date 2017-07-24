@@ -6,6 +6,7 @@
 #include <Arduino.h>
 
 void setup(void) {
+  delay(100);
   printf("Hello, Arduino world!\r\n");
   pinMode(2, OUTPUT);
 }
